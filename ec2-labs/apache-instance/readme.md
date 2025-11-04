@@ -28,7 +28,7 @@ This projects demonstrates how to deploy a static website on an Amazon EC2 insta
     - Review and launch
   2. Verify Server is running
      - Locate the Public IPv4 address for your EC2 instance under the details section of your instance
-     - In your browser connect to the IP address ex. http://ec2-ip-address
+     - In your browser connect to the IP address ex. `http://ec2-ip-address`
      - The page should say "Hello World"
   3. SSH into your EC2 instance
      - In your terminal, cd into your project folder that contains your key file
