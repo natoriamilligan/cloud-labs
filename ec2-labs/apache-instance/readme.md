@@ -24,7 +24,7 @@ This projects demonstrates how to deploy a static website on an Amazon EC2 insta
       - Inbound Rules
         - SSH traffic from anywhere on port 22
         - HTTP traffic from anywhere on port 80
-    - Under advanced details add a script to the User Data section
+    - Under advanced details add a [script](./user-data.sh) to the User Data section
     - Review and launch
   2. Verify Server is running
      - Locate the Public IPv4 address for your EC2 instance under the details section of your instance
@@ -40,7 +40,7 @@ This projects demonstrates how to deploy a static website on an Amazon EC2 insta
   
 ## What I Learned
 - How to install Apache on an EC2 instance
+- Apache creates a file system where your files (index.html) will be stored
 - How to use the terminal to SSH into an EC2 instance
 - How to verify that my security group rules/ports are correct
 - How to properly use a user data script
-- How the Apache server serves files on the internet
