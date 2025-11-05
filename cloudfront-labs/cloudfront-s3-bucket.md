@@ -6,8 +6,9 @@ AWS Cloudfront
 AWS S3
 
 ## Steps 
-1. dd
-2. 
+  1. Create an S3 bucket and block all access to it
+  2. Add index.html file and a couple jpg files to the S3 bucket
+  3. 
 
 
 
