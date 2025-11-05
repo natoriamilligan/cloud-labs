@@ -7,12 +7,12 @@ AWS S3
 
 ## 🚀 Steps 
   :one: Create an S3 bucket and block all access to it
-  2. Add index.html file and a couple jpg files to the S3 bucket
-  3. Confirm S3 bucket is private
+  :two: Add index.html file and a couple jpg files to the S3 bucket
+  :three: Confirm S3 bucket is private
      - Click the Object URL from the index.html file. Confirm that access is blocked.
      - Open the URL from the console to confirm that the photo is not loading.
      - Go to the permissions tab of the S3 bucket and confirm that the bucket policy is empty.
-  4. Go to the CloudFront console and create a CloudFront distribution
+  :four: Go to the CloudFront console and create a CloudFront distribution
      - Name your distribution
      - Select origin type (Amazon S3)
      - Select origin as the S3 bucket just created
