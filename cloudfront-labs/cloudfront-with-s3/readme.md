@@ -7,7 +7,7 @@ A quick tutorial on how to use CloudFront with an S3 bucket as the origin
 
 ## 🚀 Steps 
   1. Create an S3 bucket and block all access to it
-  2. Add index.html file and a couple jpg files to the S3 bucket
+  2. Add [index.html](./index.html) file and a couple jpg [files](./forest.jpg) to the S3 bucket
   3. Confirm S3 bucket is private
      - Click the Object URL from the index.html file. Confirm that access is blocked.
      - Open the URL from the console to confirm that the photo is not loading.
