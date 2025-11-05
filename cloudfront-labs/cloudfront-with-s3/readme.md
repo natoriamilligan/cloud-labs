@@ -1,12 +1,12 @@
-# Setting Up AWS CloudFront with an S3 Bucket Origin
+# ☁️ 🪣 Setting Up AWS CloudFront with an S3 Bucket Origin
 A quick tutorial on how to use CloudFront with an S3 bucket as the origin
 
-## :toolbox: Technology Used
+## 🧰 Technology Used
 AWS Cloudfront
 AWS S3
 
-## Steps 
-  1. Create an S3 bucket and block all access to it
+## 🚀 Steps 
+  :one: Create an S3 bucket and block all access to it
   2. Add index.html file and a couple jpg files to the S3 bucket
   3. Confirm S3 bucket is private
      - Click the Object URL from the index.html file. Confirm that access is blocked.
@@ -28,7 +28,7 @@ AWS S3
      - Disable the CloudFront distribution (This may take a while)
      - After disabling, then delete
     
-## What I Learned
+## 🧠 What I Learned
 - Cloudfront is a CDN (Content Delivery Network)
 - CloudFront caches content all around the world in edge locations
 - You can choose the edge locations you want based on your needs
