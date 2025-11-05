@@ -1,7 +1,7 @@
 # Setting Up AWS CloudFront with an S3 Bucket Origin
 A quick tutorial on how to use CloudFront with an S3 bucket as the origin
 
-## Technology Used
+## :toolbox: Technology Used
 AWS Cloudfront
 AWS S3
 
