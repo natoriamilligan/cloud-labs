@@ -21,8 +21,17 @@ AWS S3
      - Select "Do not enable security protections"
      - Review and create
   5. Wait for the CloudFront distribution to fully deploy
-  6. In your distribution, copy the distribution domain name and paste into browser with the path `index.html`
-  7. Confirm the webpage loads showing the photo
-  8. Clean up
+  6. In the S3 console, confirm the S3 bucket policy has been modified for CloudFront to get objects from your S3 bucket
+  7. In the CloudFront distribution just created, copy the distribution domain name and paste into browser with the path `/index.html`
+  8. Confirm the webpage loads showing the photo
+  9. Clean up
      - Disable the CloudFront distribution (This may take a while)
      - After disabling, then delete
+    
+## What I Learned
+- Cloudfront is a CDN (Content Delivery Network)
+- CloudFront caches content all around the world in edge locations
+- You can choose the edge locations you want based on your needs
+- CloudFront has several origins you can use
+- You can use cache invalidation to force a full or partial cache refresh
+- You can use CloudFront Geo Location to restrict access to your distribution based on country
