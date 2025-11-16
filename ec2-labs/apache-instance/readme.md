@@ -1,15 +1,15 @@
-# How to Host a Static Website with Apache on Amazon EC2
+# 🖥️ How to Host a Static Website with Apache on Amazon EC2
 
 This projects demonstrates how to deploy a static website on an Amazon EC2 instance using Apache.
 
-## ⚙️ Tech
+## 🧰 Tech
 - **AWS EC2 (Amazon Linux 2023)**
 - **Apache HTTP Server**
 - **SSH**
 - **Linux**
 - **User Data Script (Bash)**
 
-## 👣 Steps I Took
+## 🚀 Steps I Took
  1. Launch EC2 instance (Free Tier)
     - Name your instance
     - Choose an AMI (Amazon Linux 2023)
