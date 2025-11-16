@@ -2,14 +2,14 @@
 
 This projects demonstrates how to deploy a static website on an Amazon EC2 instance using Apache.
 
-## Technologies Used
+## ⚙️ Tech
 - **AWS EC2 (Amazon Linux 2023)**
 - **Apache HTTP Server**
 - **SSH**
 - **Linux**
 - **User Data Script (Bash)**
 
-## Steps I Took
+## 👣 Steps I Took
  1. Launch EC2 instance (Free Tier)
     - Name your instance
     - Choose an AMI (Amazon Linux 2023)
@@ -38,7 +38,7 @@ This projects demonstrates how to deploy a static website on an Amazon EC2 insta
      - Type "exit" in your terminal to safely exit the SSH session
      - Then terminate your EC2 instance in the AWS console
   
-## What I Learned
+## 🧠 What I Learned
 - How to install Apache on an EC2 instance
 - Apache creates a file system where your files (index.html) will be stored
 - How to use the terminal to SSH into an EC2 instance
